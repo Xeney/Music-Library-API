@@ -42,7 +42,7 @@ REST API для управления библиотекой песен с инт
      DB_PORT=5432
      DB_USER=postgres
      DB_PASSWORD=postgres
-     DB_NAME=music_library
+     DB_NAME=Music-Library-API
      EXTERNAL_API_URL=http://Music-Library-API-info:8080/info
      ```
 
