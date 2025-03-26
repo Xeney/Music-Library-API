@@ -31,8 +31,8 @@ REST API для управления библиотекой песен с инт
 ## 🛠 Установка
 1. **Клонировать репозиторий**:
    ```bash
-   git clone https://github.com/yourname/music-library.git
-   cd music-library
+   git clone https://github.com/Xeney/Music-Library-API.git
+   cd Music-Library-API
    ```
 
 2. **Настроить окружение**:
@@ -43,7 +43,7 @@ REST API для управления библиотекой песен с инт
      DB_USER=postgres
      DB_PASSWORD=postgres
      DB_NAME=music_library
-     EXTERNAL_API_URL=http://api-music-info:8080/info
+     EXTERNAL_API_URL=http://Music-Library-API-info:8080/info
      ```
 
 3. **Запустить PostgreSQL**:
@@ -99,7 +99,7 @@ make test-integration
 
 ## 🏗 Структура проекта
 ```
-music-library/
+Music-Library-API/
 ├── cmd/
 │   └── main.go          # Точка входа
 ├── internal/
